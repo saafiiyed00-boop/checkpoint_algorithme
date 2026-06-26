@@ -1,0 +1,71 @@
+algorithme analyse_de_phrase
+VAR  
+ch=chaîne
+cH="anfggbn wifjssjdv ijsie iàzigsdg rgzjgssgrgj jsfjjh"
+nb_mot,nb_voyelle = entier
+début
+écrire(long(ch) ) 
+ nb_mot=1
+ pour i de 0 à (long(ch)-1)faire
+    si (ch[i]==espace) alors
+        nb_mot<--nb_mot+1
+    fin_si
+    
+ fin_pour
+ écrire("le nbr de mots dans cette phrae est :",nb_mot) 
+//  ou encore
+ k=0
+répéter
+    si (ch[k]=='.') alors
+        nb_mot<--nb_mot+1
+    fin_si
+    k=k+1
+jusqu'à ch
+
+ écrire("le nbr de mots dans cette phrae est :",nb_mot) 
+
+nb_voyelle=0
+pour i de 0 à (long(ch)-1) faire
+    si (ch[i]=='e'ou ch[i]=='y' ou ch[i]=='o'ch[i]=='a'ch[i]=='u'ch[i]=='i' ) alors
+    
+       nb_voyelle <--nb_voyelle+1
+    fin_si
+    
+fin_pour 
+fin
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+fin
+
+
